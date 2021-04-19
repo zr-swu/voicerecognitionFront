@@ -81,8 +81,8 @@ export default {
       this.axios({
         method: "get",
         url:
-          "http://localhost:9090/v1/" +
-          "/video/getVideo?" +
+          "http://81.69.3.91:9090/v1/" +
+          "video/getVideo?" +
           "page=" +
           page +
           "&size=" +
@@ -121,7 +121,7 @@ export default {
       this.axios({
         method: "get",
         url:
-          "http://localhost:9090/v1/" +
+          "http://81.69.3.91:9090/v1/" +
           "/video/jump?keyword=" +
           this.input +
           "&page=" +
